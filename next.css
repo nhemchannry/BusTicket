@@ -1,0 +1,15 @@
+body{ background-image: url("1.jpg");
+    background-position: flex;
+    background-size: cover;
+    display:-ms-inline-flexbox;
+}
+.container-date[type="date"]{
+    width: 400px;
+    display: block;
+    margin: auto;
+    border: 5px solid rgb(24, 107,190);
+    border-radius: 48px;
+    font-size: 20px;
+    padding: 5px 10px;
+    text-align: center;
+}

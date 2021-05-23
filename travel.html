@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link type="text/css" rel="stylesheet" href="./css/travel.css">
+<script src="./js/index.js"></script>
+<body>
+    <form class="box" action="#" onsubmit="addbook(); return false;" id="bookForm">
+      <div class="container">Complete Information</div><br>  
+      <label class="container_name">Your name:</label><br>
+        <input type ="text" placeholder="Enter your name" name="name_people" required><br>
+        <label class="number_people">Number of People:</label><br>
+        <input type="number" name="num_people" required><br>
+        <label class="container1">Pick the province:</label><br>
+        <select class="province_select" name="province_select">
+        <option type="text" name="province">Prey veng</option>
+        <option type="text" name="province">Kandal</option>
+        <option type="text" name="province">Siem Reap</option>
+        <option type="text" name="province">Banteay Meanchey</option>
+        <option type="text" name="province">Kampong cham</option>
+        <option type="text" name="province">Kampong Speu</option>
+        <option type="text" name="province">Kampong Thom</option>
+        <option type="text" name="province">Kompot</option>
+        <option type="text" name="province">Kep</option>
+        <option type="text" name="province">Koh Kong</option>
+        <option type="text" name="province">MondulKiri</option>
+        <option type="text" name="province">Oddar Meanchey</option>
+        <option type="text" name="province">Pailin</option>
+        <option type="text" name="province">Preah Vihear</option>
+        <option type="text" name="province">Pursat</option>
+        <option type="text" name="province">Patanakiri</option>
+        <option type="text" name="province">Stung Treng</option>
+        <option type="text" name="province">Takeo</option>
+        <option type="text" name="province">Svay Rieng</option>
+        <option type="text" name="province">Tboung Khmum</option>
+        <option type="text" name="province">Sihanoukville</option>
+      </select><br>
+
+      <label class="container_date">Date:</label><br>
+      <input type="date" name="bd" required><br>
+
+      <label class="choose_time">Choose time to go:</label><br>
+      <input type="radio" id="time7am" name="time" value="time7am" required>
+      <label for="time7am">07:30AM</label><br>
+      <input type="radio" id="time10am" name="time" value="time10am" required>
+      <label for="time10am">10:00AM</label><br>
+      <input type="radio" id="time2pm" name="time" value="time2pm" required>
+      <label for="time2pm">02:30PM</label><br><br>
+
+      <input type="submit" value="BOOK">
+    </form>
+</body>
+</html>

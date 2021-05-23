@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding:0;
+    font-family: sans-serif;
+    background: cadetblue;
+    background-image: url(../img/peopleinbus.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.box{
+    width: 500px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgb(39, 33, 38);
+    text-align: center;
+}
+.box h1{
+    color: white;
+    font-weight: 500;
+}
+.box input[type="email"],.box input[type="password"]{
+    border: 2;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 5px solid rgb(24, 107, 190);
+    padding: 14px 10px;
+    width: 500px;
+    outline: none;
+    border-radius: 48px;
+    transform: 1s;
+    font-size: 35px;
+}
+.box input[type="email"]:focus, .box input[type="password"]:focus{
+    width: 280px;
+    border-color: #2ecc71;
+}
+    .box input[type="email"]:hover, .box input[type="password"]:hover{
+        background:#95adbd ;
+    }
+.box input[type="submit"],.box input[type="button"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding:14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition:1s;
+    cursor: pointer;   
+}
+.box input[type="submit"]:hover, .box input[type="button"]:hover{
+    background:#3498db ;
+}
+.box input[placeholder="Enter Email"], .box input[placeholder="Enter Password"]{
+    font-family: cursive;
+}
+.box input[value="login"]{
+    font-family: cursive;
+    font-size: 20px;
+    border: 5px solid rgb(24, 107, 190);
+    transition:0.05s;
+    cursor: pointer;  
+}
+.box input[type="button"]{
+    text-decoration: none;
+    text-decoration: #3498db;
+    font-family: cursive;
+    font-size: 20px;
+    border: 5px solid rgb(24, 107, 190);
+}
+.box a[href="./index.html"]{
+    text-decoration: none;
+  }
+.message_box {
+    -webkit-animation: DisapearAnimation 3s forwards; 
+    animation: DisapearAnimation 3s forwards;
+  }
+  @keyframes DisapearAnimation {
+    0%   {opacity: 0;}
+    20%  {opacity: 1;}
+    80%  {opacity: 1;}
+    100% {opacity: 0;}
+  }
+  @-webkit-keyframes DisapearAnimation {
+    0%   {opacity: 0;}
+    10% {opacity: 0.5; }
+    50%  {opacity: 1;}
+    90% {opacity: 0.5; }
+    100% {opacity: 0;}}
+    h2{
+        font-style: italic;
+        margin: 0;
+        font-size: 100px;
+        *text-align: center;
+        color: white;
+        text-transform: uppercase;
+        color: tomato;
+        text-shadow: yellow;
+        text-shadow: transparent;
+    }

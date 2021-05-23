@@ -1,0 +1,184 @@
+body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  background: url(../img/homepage.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: table;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 80px;
+  border-bottom: 4px solid rgba(255,255,255,0.5);
+}
+.logo{
+  letter-spacing:1px;
+  float: left;
+  color: #fff;
+  font-size: 22px;
+  line-height: 80px;
+  padding: 0 2em;
+}
+.menu{
+  float:right;
+  line-height: 1px;
+  margin-right: 10px;
+  margin-top: 30px;
+
+}
+.menu ul{
+  list-style: none;
+}
+.menu ul li{
+display: inline-block;
+}
+.menu ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: lighter;
+  padding: 0 5px;
+}
+.menu ul li a:hover{
+  color: aqua;
+}
+ul li:nth-child(5) a{
+  color: aqua;
+  border: 1px solid #009f80;
+  padding: 5px 10px;
+}
+ul li:nth-child(5) a:hover{
+
+  color: #000;
+}
+.header{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  margin-top: 155px;
+}
+.header h1{
+  color: rgb(121, 36, 36);
+  font-size: 46px;
+  font-weight: 400;
+}
+.header p{
+  color: rgb(146, 49, 49);
+  font-size: 24px;
+  font-weight: lighter;
+}
+.header button{
+  color:rgb(109, 30, 30);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+.box{
+  margin-left: 10px;
+  width: 250px;
+  padding: 10px;
+  padding-right: 10px;
+  position:fixed;
+  background: none;
+  top: 50%;
+  right: 1%;
+  transform: translate(-50%,-50%);
+  background: none;
+  text-align:left;
+  background-position: center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.box a[href="./travel.html"]{
+  text-decoration: none;
+  color: rgb(175, 207, 207);
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.box a[href="./travel.html"]:hover{
+  color: rgb(196, 38, 182);
+}
+.contianer{
+  width: 50%;
+  padding: 10px;
+  background: rgb(187, 179, 184);
+  margin: 100px auto;
+  display: flex;
+  justify-content: center;
+}
+.box1{
+  width: 250px;
+  height: 200px;
+  background:turquoise;
+  margin: 0px 10px;
+  transform: 1s;
+}
+.box1:hover{
+  transform: scale(1.3);
+  background: rgb(144, 152, 165);
+  box-shadow:darkcyan;
+  z-index: 1;
+}
+/*body{
+  background-image: url(../img/homepage.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+#admin_link{
+  font-size: 30px;
+  text-decoration: none;
+  margin-left: 20%;
+  padding-left: 20%;
+  background-position: center;
+  display: block;
+}
+.booklogo h1{
+  font-family: cursive;
+  font-size: 50px;
+  text-decoration: none;
+  position: fixed;
+}
+.box{
+  padding: 40px;
+  position:fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(100%,-100%);
+  background-attachment: fixed;
+  background-size: cover;
+}
+.box input[type="button"]:hover{
+  background:#d0e0eb ;
+}
+.box a[href="#"]{
+  text-decoration: none;
+  background-position: center;
+}
+.box input[type="button"]{
+    border: 0;
+    background: none;
+    text-decoration: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #131e25;
+    padding:14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    font-family: cursive;
+    font-size: 20px;
+    margin: 70;
+}

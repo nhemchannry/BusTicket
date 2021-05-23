@@ -1,0 +1,36 @@
+table th{
+    text-align: left;
+    color: black;
+    background-color: turquoise;
+
+}
+table td{
+    border: 1px solid darkcyan;
+}
+.message_box {
+    -webkit-animation: DisapearAnimation 3s forwards; 
+    animation: DisapearAnimation 3s forwards;
+  }
+  @keyframes DisapearAnimation {
+    0%   {opacity: 0;}
+    20%  {opacity: 1;}
+    80%  {opacity: 1;}
+    100% {opacity: 0;}
+  }
+  @-webkit-keyframes DisapearAnimation {
+    0%   {opacity: 0;}
+    10% {opacity: 0.5; }
+    50%  {opacity: 1;}
+    90% {opacity: 0.5; }
+    100% {opacity: 0;}}
+    h2{
+        font-style: italic;
+        margin: 0;
+        font-size: 100px;
+        *text-align: center;
+        color: white;
+        text-transform: uppercase;
+        color: tomato;
+        text-shadow: yellow;
+        text-shadow: transparent;
+    }

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="./css/admin_page.css">
+<script src="./js/index.js"></script>
+<body onload="displaybook(); return false;">
+    <form class="box" action="#" onsubmit="addbook(); return false;" id="bookForm">
+    <h1>Book list</h1>
+    <br>
+    <div id="book_list">
+        <div id="book_table"></div>
+    </div><br>
+    </form>
+    <table class="box">
+        <tr>
+            <th>Name</th>
+            <th>Number of people</th>
+            <th>province</th>
+            <th>Date</th>
+            <th>Time</th>
+            <th>   Action  </th>
+        </tr>
+        <tr>
+            <td>Thary</td>
+            <td>3</td>
+            <td>Prey veng</td>
+            <td>2021-05-22</td>
+            <td>07:00AM</td>
+            <td><button>Delete</button></td>
+        </tr>
+    </table>
+</body>
+</html>
